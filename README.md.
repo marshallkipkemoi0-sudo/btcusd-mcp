@@ -1,0 +1,28 @@
+BTCUSD Market Learning MCP
+
+A read-only MCP server for Bitcoin market analysis.
+
+Features
+
+- Retrieve historical BTC candles from a clearly identified data source.
+- Summarize price action and basic market structure.
+- Report stale or missing market data.
+- Provide educational analysis without placing trades.
+
+Data source
+
+TradingView is a charting platform, not automatically a server-side market-data API. The server must use a separate, explicitly selected data source.
+
+Safety
+
+- Read-only; no automated trading.
+- No exchange passwords or account credentials.
+- Educational use only; no guaranteed profits.
+
+Roadmap
+
+1. Connect a market-data source.
+2. Build the MCP analysis tools.
+3. Test the tools.
+4. Deploy securely.
+5. Connect to a supported ChatGPT integration.
